@@ -94,18 +94,18 @@
 
 
 
-<meta name="description" content="SQL Data Type Java Data Type     char String   varchar String   longvarchar String   numeric java.math.BigDecimal   decimal java.math.BigDecimal   bit boolean   tinyint byte   integer int   bigint">
+<meta name="description" content="mysql安装下载地址windows上安装参考链接Mac上双击dmg文件，根据提示安装即可 Mac上 mysql环境变量配置 打开终端,输入： cd ~ 然后输入：sudo vim .bash_profile，回车执行，需要输入root用户密码。sudo是使用root用户修改环境变量文件 输入 E 进入编辑模式， 输入 I 就可以输入文字了 在文档的最下方输入：export PATH=${PATH">
 <meta name="keywords" content="mysql">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java数据类型和SQL数据类型的映射">
-<meta property="og:url" content="http://yoursite.com/2018/11/14/6Java数据类型和SQL数据类型的映射/index.html">
+<meta property="og:title" content="mysql安装以及启动">
+<meta property="og:url" content="http://yoursite.com/2018/11/12/3mysql安装以及启动/index.html">
 <meta property="og:site_name" content="JalenFang&#39;s Blog">
-<meta property="og:description" content="SQL Data Type Java Data Type     char String   varchar String   longvarchar String   numeric java.math.BigDecimal   decimal java.math.BigDecimal   bit boolean   tinyint byte   integer int   bigint">
+<meta property="og:description" content="mysql安装下载地址windows上安装参考链接Mac上双击dmg文件，根据提示安装即可 Mac上 mysql环境变量配置 打开终端,输入： cd ~ 然后输入：sudo vim .bash_profile，回车执行，需要输入root用户密码。sudo是使用root用户修改环境变量文件 输入 E 进入编辑模式， 输入 I 就可以输入文字了 在文档的最下方输入：export PATH=${PATH">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-17T08:31:45.750Z">
+<meta property="og:updated_time" content="2018-12-11T15:25:03.226Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java数据类型和SQL数据类型的映射">
-<meta name="twitter:description" content="SQL Data Type Java Data Type     char String   varchar String   longvarchar String   numeric java.math.BigDecimal   decimal java.math.BigDecimal   bit boolean   tinyint byte   integer int   bigint">
+<meta name="twitter:title" content="mysql安装以及启动">
+<meta name="twitter:description" content="mysql安装下载地址windows上安装参考链接Mac上双击dmg文件，根据提示安装即可 Mac上 mysql环境变量配置 打开终端,输入： cd ~ 然后输入：sudo vim .bash_profile，回车执行，需要输入root用户密码。sudo是使用root用户修改环境变量文件 输入 E 进入编辑模式， 输入 I 就可以输入文字了 在文档的最下方输入：export PATH=${PATH">
 
 
 
@@ -134,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/14/6Java数据类型和SQL数据类型的映射/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/11/12/3mysql安装以及启动/"/>
 
 
 
 
 
-  <title>Java数据类型和SQL数据类型的映射 | JalenFang's Blog</title>
+  <title>mysql安装以及启动 | JalenFang's Blog</title>
   
 
 
@@ -293,7 +293,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/14/6Java数据类型和SQL数据类型的映射/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/12/3mysql安装以及启动/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="JalenFang">
@@ -310,7 +310,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Java数据类型和SQL数据类型的映射</h1>
+          <h1 class="post-title" itemprop="name headline">mysql安装以及启动</h1>
         
 
         <div class="post-meta">
@@ -322,8 +322,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-14T00:00:00+08:00">
-                2018-11-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-12T00:00:00+08:00">
+                2018-11-12
               </time>
             
 
@@ -380,84 +380,24 @@
       
 
       
-        <table>
-<thead>
-<tr>
-<th>SQL Data Type</th>
-<th>Java Data Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>char</td>
-<td>String</td>
-</tr>
-<tr>
-<td>varchar</td>
-<td>String</td>
-</tr>
-<tr>
-<td>longvarchar</td>
-<td>String</td>
-</tr>
-<tr>
-<td>numeric</td>
-<td>java.math.BigDecimal</td>
-</tr>
-<tr>
-<td>decimal</td>
-<td>java.math.BigDecimal</td>
-</tr>
-<tr>
-<td>bit</td>
-<td>boolean</td>
-</tr>
-<tr>
-<td>tinyint</td>
-<td>byte</td>
-</tr>
-<tr>
-<td>integer</td>
-<td>int</td>
-</tr>
-<tr>
-<td>bigint</td>
-<td>long</td>
-</tr>
-<tr>
-<td>real</td>
-<td>float</td>
-</tr>
-<tr>
-<td>double</td>
-<td>double</td>
-</tr>
-<tr>
-<td>binary</td>
-<td>byte[]</td>
-</tr>
-<tr>
-<td>varbinary</td>
-<td>byte[]</td>
-</tr>
-<tr>
-<td>longvarbinary</td>
-<td>byte[]</td>
-</tr>
-<tr>
-<td>date</td>
-<td>java.sql.Date</td>
-</tr>
-<tr>
-<td>time</td>
-<td>java.sql.Time</td>
-</tr>
-<tr>
-<td>timestamp</td>
-<td>java.sql.Timestamp</td>
-</tr>
-</tbody>
-</table>
+        <h4 id="mysql安装"><a href="#mysql安装" class="headerlink" title="mysql安装"></a>mysql安装</h4><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">下载地址</a><br><a href="https://blog.csdn.net/u013235478/article/details/50623693" target="_blank" rel="noopener">windows上安装参考链接</a><br>Mac上双击dmg文件，根据提示安装即可</p>
+<h4 id="Mac上-mysql环境变量配置"><a href="#Mac上-mysql环境变量配置" class="headerlink" title="Mac上 mysql环境变量配置"></a>Mac上 mysql环境变量配置</h4><ol>
+<li>打开终端,输入： cd ~</li>
+<li>然后输入：sudo vim .bash_profile，回车执行，需要输入root用户密码。sudo是使用root用户修改环境变量文件</li>
+<li>输入 E 进入编辑模式， 输入 I 就可以输入文字了</li>
+<li>在文档的最下方输入：export PATH=${PATH}:/usr/local/mysql/bin</li>
+<li>然后esc退出insert状态，输入:wq保存退出。</li>
+<li>输入：source .bash_profile，回车执行，运行环境变量。</li>
+</ol>
+<h4 id="mysql启动方式"><a href="#mysql启动方式" class="headerlink" title="mysql启动方式"></a>mysql启动方式</h4><p>一、Windows上启动方式  </p>
+<ol>
+<li>第一种方式<br><code>控制面板 - 管理工具 - 服务</code></li>
+<li>第二种方式<br><code>cmd(以管理员方式运行) - cd 安装路径(切换到mysql安装的bin目录) - net start mysql80(mysql的名字)</code>  </li>
+</ol>
+<p>二、Mac上启动方式<br><code>系统偏好设置 - 点击mysql</code></p>
+<h4 id="错误解决"><a href="#错误解决" class="headerlink" title="错误解决"></a>错误解决</h4><ul>
+<li>启动mysql，发生系统错误5。拒绝访问。<br><code>打开cmd，需要以管理员身份运行</code></li>
+</ul>
 
       
     </div>
@@ -488,8 +428,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/11/13/4hexo发布文章/" rel="next" title="hexo 发布文章">
-                <i class="fa fa-chevron-left"></i> hexo 发布文章
+              <a href="/2018/07/12/2hexo常用命令/" rel="next" title="hexo常用命令">
+                <i class="fa fa-chevron-left"></i> hexo常用命令
               </a>
             
           </div>
@@ -497,6 +437,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/13/5mysql常用命令/" rel="prev" title="mysql常用命令">
+                mysql常用命令 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -544,8 +488,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -645,6 +598,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#mysql安装"><span class="nav-number">1.</span> <span class="nav-text">mysql安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Mac上-mysql环境变量配置"><span class="nav-number">2.</span> <span class="nav-text">Mac上 mysql环境变量配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#mysql启动方式"><span class="nav-number">3.</span> <span class="nav-text">mysql启动方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#错误解决"><span class="nav-number">4.</span> <span class="nav-text">错误解决</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
